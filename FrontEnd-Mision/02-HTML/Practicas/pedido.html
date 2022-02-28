@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device widht, initial-scale=1.0">
+    <title>Levantar un pedido</title>
+    <link rel="stylesheet" href="./CssPsteleria/estiloformulario.css">
+</head>
+<body>
+    <div id="titulo">
+        <h1>¡Aquí puedes hacer tu pedido!</h1>
+        <p>Necesitaremos algunos datos tuyos...</p>
+    </div>
+
+    <form action="pedido.js">
+        <div id="datos">
+        <label for="Nombre">¿Cuál es tu nombre?</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Ulises"><br>
+        <label for="Apellido">¿Cuál es tu Apellido?</label><br>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Ibañez"><br>
+        <label for="telefono">Ingrese el número de teléfono</label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="324-105-55-80"><br>
+        <label for="Correo">Ingrese su correo electrónico:</label><br>
+        <input type="text" id="Correo" name="Correo" placeholder="juanescutia@gmail.com"><br>
+        <label for="Agregar">¿Algún comentario que desee agregar?</label><br>
+        <input type="text" id="Agragar" name="Agregar" placeholder="¿Pudiera tener extra chocolate?..."><br>
+        </div>
+
+        <div id="solicitud">
+            <h2>¡Es hora de hacer pasteles!</h2>
+            <p>Puedes escoger entre las diferentes opciones</p>
+        </div>
+        
+        <div id="cuantoscho">
+            <p>¿Cuántos pasteles de chocolate?</p>
+        </div>
+        <div id="pastelchocolate">
+        <label for="numerochocolate">¿Cuántos?</label>
+        <input type="number" min="0" id="numerochocolate" placeholder="Seleccione una cantidad">
+        <p>Seleccione el tamaño de sus pasteles</p>
+        <select name="multipletamaño" id="tamaño">
+            <option value="ninguno"></option> 
+            <option value="chico">Chico</option>
+            <option value="mediano">Mediano</option>
+            <option value="grande">Grande</option>          
+        </select><br>
+        <p>Seleccione su adorno preferido</p>
+        <select name="adorno" id="adorno">
+            <option value="ninguno"></option> 
+            <option value="Chispas">Chispas de Chocolate</option>
+            <option value="cubierta">Cubierta de Chocolate</option>
+            <option value="frutas">Cubierta de frutas</option>
+            <option value="glaseado">Glaseado</option>
+            <option value="Trozos">Trozos de galletas de chocolate</option>           
+        </select>
+        <br>
+        </div>
+        
+        <div id="cuantosvai">
+            <p>¿Cuántos pasteles de vainilla?</p>
+        </div>
+        <div id="pastelvainilla">
+        <label for="numerochocolate">¿Cuántos?</label>
+        <input type="number" min="0" id="numerochocolate" placeholder="Seleccione una cantidad">
+        <p>Seleccione el tamaño de sus pasteles</p>
+        <select name="multipletamaño" id="tamaño">
+            <option value="ninguno"></option> 
+            <option value="chico">Chico</option>
+            <option value="mediano">Mediano</option>
+            <option value="grande">Grande</option>           
+        </select><br>
+        <p>Seleccione su adorno preferido</p>
+        <select name="adorno" id="adorno">
+            <option value="ninguno"></option> 
+            <option value="Chispas">Chispas de Chocolate</option>
+            <option value="cubierta">Cubierta de Chocolate</option>
+            <option value="frutas">Cubierta de frutas</option>
+            <option value="glaseado">Glaseado</option>
+            <option value="Trozos">Trozos de galletas de chocolate</option>      
+        </select>
+        <br>
+        </div>
+        
+        <div id="cuantoslim">
+            <p>¿Cuántos pasteles de Limón?</p>
+        </div>
+        <div id="pastellimon">
+        <label for="numerochocolate">¿Cuántos?</label>
+        <input type="number" min="0" id="numerochocolate" placeholder="Seleccione una cantidad">
+        <p>Seleccione el tamaño de sus pasteles</p>
+        <select name="multipletamaño" id="tamaño">
+            <option value="ninguno"></option> 
+            <option value="chico">Chico</option>
+            <option value="mediano">Mediano</option>
+            <option value="grande">Grande</option>           
+        </select><br>
+        <p>Seleccione su adorno preferido</p>
+        <select name="adorno" id="adorno">
+            <option value="ninguno"></option> 
+            <option value="Chispas">Chispas de Chocolate</option>
+            <option value="cubierta">Cubierta de Chocolate</option>
+            <option value="frutas">Cubierta de frutas</option>
+            <option value="glaseado">Glaseado</option>
+            <option value="Trozos">Trozos de galletas de chocolate</option>      
+        </select>
+        <br>
+        </div>
+        
+        <div id="cuantosfre">
+            <p>¿Cuántos pasteles de Fresa?</p>
+        </div>
+        <div id="pastelfresa">
+        <label for="numerochocolate">¿Cuántos?</label>
+        <input type="number" min="0" id="numerochocolate" placeholder="Seleccione una cantidad">
+        <p>Seleccione el tamaño de sus pasteles</p>
+        <select name="multipletamaño" id="tamaño">
+            <option value="ninguno"></option> 
+            <option value="chico">Chico</option>
+            <option value="mediano">Mediano</option>
+            <option value="grande">Grande</option>           
+        </select><br>
+        <p>Seleccione su adorno preferido</p>
+        <select name="adorno" id="adorno">
+            <option value="ninguno"></option> 
+            <option value="Chispas">Chispas de Chocolate</option>
+            <option value="cubierta">Cubierta de Chocolate</option>
+            <option value="frutas">Cubierta de frutas</option>
+            <option value="glaseado">Glaseado</option>
+            <option value="Trozos">Trozos de galletas de chocolate</option>      
+        </select>
+        <br>
+        </div>
+        
+        <br><br><br>
+        <div id="Submit">
+            <input type="reset" value="Reset" id="reset">
+            <input type="submit" value="¡Haz mi pedido!">
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #FBE1DC
+}
+#titulo {
+    text-align: center;
+    line-height: 30px;
+    font-style: oblique;
+}
+#Menupasteles {
+    width: auto;
+    height: 500px;
+    float: left;
+}
+aside {
+    width: 400px;
+    height: 500px;
+    float: right;
+}
+footer {
+    clear: both;
+    padding: 20px;
+    font-style: italic;
+}

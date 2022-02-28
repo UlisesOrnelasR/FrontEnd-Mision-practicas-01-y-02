@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #FBE1DC
+}
+#titulo {
+    text-align: center;
+    line-height: 30px;
+    font-style: oblique;
+    
+}
+#datos{
+    text-align: center;
+    line-height: 30px;
+    font-style: oblique;
+}
+#solicitud {
+    text-align: center;
+    line-height: 30px;
+    font-style: oblique;
+}
+#cuantoscho{
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0.9px 1px 1px black;
+    margin: 0 auto;
+}
+#cuantosvai{
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0.9px 1px 1px black;
+    margin: 0 auto;
+}
+#cuantosfre{
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0.9px 1px 1px black;
+    margin: 0 auto;
+}
+#cuantoslim{
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0.9px 1px 1px black;
+    margin: 0 auto;
+}
+
+#pastelchocolate {
+    text-align: left;
+    line-height: 25px;
+    text-align: center;
+}
+#pastelvainilla {
+    text-align: left;
+    line-height: 25px;
+    text-align: center;
+}
+#pastellimon {
+    text-align: left;
+    line-height: 25px;
+    text-align: center;
+}
+#pastelfresa {
+    text-align: left;
+    line-height: 25px;
+    text-align: center;
+}
+#Submit {
+    text-align: center;
+}
